@@ -1,9 +1,9 @@
 # Overview of the folder
 This folder contains all the .py files for basic python coding.
 
-## To execute any .py file, copy and paste the below commands all together in Google Colab Notebook and run:
+### To execute any .py file, copy and paste the below commands all together in Google Colab Notebook and run:
 
-```bash
+```python
 # Remove the old python_code folder (ignore errors if it says not found)
 !rm -rf python_code
 
