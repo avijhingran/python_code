@@ -10,7 +10,6 @@ print("After Assignment (Modifying outer list):")
 print("Original:", original)
 print("Assigned:", assigned)
 print()
-
 # Modify inner list
 assigned[0][0] = 100     # affects original, assigned, and shallow
 print("After Assignment (Modifying inner list):")
@@ -27,7 +26,6 @@ print("Original:", original)
 print("Assigned:", assigned)
 print("Shallow:", shallow)
 print()
-
 # Modify inner list
 shallow[0][1] = 200
 assigned[0][0] = 1000     # affects original, assigned, and shallow
@@ -45,7 +43,7 @@ print("Original:", original)
 print("Assigned:", assigned)
 print("Shallow:", shallow)
 print("Deep:", deep)
-
+print()
 # Modify inner list
 deep[1][0] = 300          # does NOT affect original
 print("Original:", original)
