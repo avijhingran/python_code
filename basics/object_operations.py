@@ -25,7 +25,7 @@ shallow.append(["shallow"])     # does NOT affect original
 print("After Shallow Copy (Modifying outer list):")
 print("Original:", original)
 print("Assigned:", assigned)
-print("Shallow  :", shallow)
+print("Shallow:", shallow)
 print()
 
 # Modify inner list
@@ -34,7 +34,7 @@ assigned[0][0] = 1000     # affects original, assigned, and shallow
 print("After Shallow Copy (Modifying inner list):")
 print("Original:", original)
 print("Assigned:", assigned)
-print("Shallow  :", shallow)
+print("Shallow:", shallow)
 print()
 
 # 3. Deep Copy
