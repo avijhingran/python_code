@@ -17,13 +17,13 @@ with open(filename, "r") as f:
     print("Full content:\n", content)
 
 # 4. Read line-by-line
-print("\n Reading line-by-line:")
+print("Reading line-by-line:")
 with open(filename, "r") as f:
     for line in f:
         print(line.strip())
 
 # 5. Read specific characters + seek
-print("\n Partial read and seek:")
+print("Partial read and seek:")
 with open(filename, "r") as f:
     print("First 10 chars:", f.read(10))
     f.seek(0)  # Reset to beginning
@@ -32,6 +32,6 @@ with open(filename, "r") as f:
 # 6. Check if file exists before deleting (cleanup)
 if os.path.exists(filename):
     os.remove(filename)
-    print(f"\n '{filename}' deleted after demo.")
+    print(f"'{filename}' deleted after demo.")
 else:
     print("File not found.")
